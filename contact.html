@@ -1,0 +1,90 @@
+
+<!doctype html>
+
+<html lang = "en">
+
+<head>
+    
+<Style> @import "css/contact.css" </style>
+<Style> @import "NavCss/css2.css" </style>    
+    
+<title>Xcel Leisure</title>
+
+
+
+<meta charset = "utf-8">
+    
+<script type = "text/javascript">
+function myfunction(){
+    alert("Thank you for submitting the form");
+}
+
+</script> 
+    
+</head>
+
+<body>
+        
+<div id="header">
+    <h1><img src ="images/logo.png"></h1>
+</div>
+
+<div align="center" id = "nav" ></nav>
+<a href= "home.html"class="button">Home</a>
+<a href= "classes.html"class="button">Classes</a>
+<a href= "membership.html"class="button">Membership</a>
+<a href= "shop.html"class="button">Shop</a>    
+<a href= "contact.html"class="button">Contact us</a>
+<a href= "gallery.html"class="button">Gallery</a>
+<a href= "faq.html"class="button">FAQ</a>
+<a href= "sitemap.html" class="button">Map</a>    
+    
+</ul>
+</div>
+
+
+
+<form action = "contactForm.html" method = "post" onSubmit="myfunction();">
+<fieldset>    
+<fieldset>
+    <legend>
+        <p><h3>Use the following form to send a message:</h3></p> 
+    </legend>
+    
+    <p>Your email：</p>
+<input type="email" size="10" maxlength="40" name="name" id = "name" value = "" >
+</fieldset>
+    
+    
+<p><fieldset>
+    <legend>Message：</legend>
+<br>
+<textarea name = "textArea" id = "textArea" rows="10" cols="50" wrap="hard" name="comments"></textarea>
+    </fieldset>
+</p>
+
+
+    
+<p>    
+<input type = "submit" name = "submit" id = "submit" value = "Submit">
+
+<input type = "reset"    name = "reset" id = "reset" value = "Reset">
+</p>
+    </fieldset>    
+</form>
+
+
+
+
+
+
+
+
+
+
+<div id="footer">
+    Copyright @B00086142 2016
+</div>
+
+</body>
+</html>

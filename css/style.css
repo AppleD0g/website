@@ -1,0 +1,53 @@
+body{
+    background-color:antiquewhite;
+}
+
+    
+
+#col1{
+   
+    width: 48%;
+    float:left;
+    margin-bottom: 1%; 
+    margin-left:10%;
+
+    }
+    
+li{
+    margin-right: 20%
+}
+
+#col2{
+   
+    width: 30%;
+    position: relative;
+    padding: 0px;
+    margin-left:3%;
+    float:left;
+    }
+    
+    
+#col3{
+    
+    width: 30%;
+    margin-left:3%;
+    float:left;
+    }
+
+
+
+
+
+
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+}
+
+
+
+
+

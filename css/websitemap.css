@@ -1,0 +1,20 @@
+
+#image img{
+     margin-left:25%;
+     margin-top: 5%; 
+    padding-bottom: 5%;
+}
+
+
+body{
+    background-color:antiquewhite;
+}
+
+
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+}

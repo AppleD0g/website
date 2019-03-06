@@ -1,0 +1,43 @@
+body{
+    background-color:antiquewhite;
+}
+
+
+h3{
+    margin-left: 25%;
+    margin-top: 5%
+}
+
+h4{
+    margin-left: 30%;
+}
+
+
+#image img{
+     margin-left:25%;
+     margin-top: 1%;    
+}
+
+
+
+#hello{
+     margin-left:%;
+     margin-top: 1%;    
+}
+
+
+
+
+
+
+
+
+
+
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+}

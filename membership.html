@@ -1,0 +1,233 @@
+
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<meta charset = "utf-8">
+<title> Xcel Leisure  </title>
+
+<Style> @import "css/membership.css" </style>
+<Style> @import "NavCss/css2.css" </style>    
+
+    
+<script type = "text/javascript">
+function myfunction(){
+    alert("Thank you for submitting the form");
+}
+
+</script>    
+    
+    
+</head>
+
+<body>
+
+<div id="header">
+    <h1><img src ="images/logo.png"></h1>
+</div>
+
+<div align="center" id = "nav" ></nav>
+<a href= "home.html"class="button">Home</a>
+<a href= "classes.html"class="button">Classes</a>
+<a href= "membership.html"class="button">Membership</a>
+<a href= "shop.html"class="button">Shop</a>    
+<a href= "contact.html"class="button">Contact us</a>
+<a href= "gallery.html"class="button">Gallery</a>
+<a href= "faq.html"class="button">FAQ</a>
+<a href= "sitemap.html" class="button">Site Map</a>     
+</ul>
+</div>
+
+ 
+
+
+
+
+
+<br>
+<form action= "thankyou.html" method="post"  onSubmit="myfunction();">    
+<h1 align="center">Membership Form</h1>
+<p>
+Complete this form and press Send button.
+</p>  
+<fieldset>
+    <legend>Personal Details </legend>  
+
+<label for="name">Name:</label>    
+<input type="text" name="name" required placeholder ="Enter your name" id="term">
+<br>
+    
+<label for="name">Birthday:</label>    
+<input type="text" name="birth" required placeholder ="dd/mm/yy" id="term" required placeholder ="dd/mm/yy">
+<br>
+    
+<label for="tel">Phone Number:</label>
+<input type="tel"  name="number" id="term" title=" Enter 7 digits (Format: +99(99)999)" required placeholder ="Enter your phone number">
+<br>
+    
+<label for="password">Password:</label>    
+<input type="password" name="password"   id="term" required placeholder="Enter your password">    
+<br>     
+    
+<label for="address">Address:</label>    
+<input type=text name="address" id="term" required placeholder="Enter your address">
+<br>    
+
+<label for="email">Email :</label>    
+<input type="email" name="emailAddress" id="term" required placeholder ="Enter your email address">
+<br>  
+
+<label for="gender">Gender :</label>    
+<input type="radio" name="gender" id="term" value="Male">Male
+<input type="radio" name="gender"  id="term" value="Male">Female
+<br>
+    
+    
+</fieldset>
+</p> 
+
+<p>
+<fieldset>
+    <legend>Health/Physical Condition</legend>   
+    <br>
+<select  id ="menu" size = "1">
+	<option value="Email">Select	</option>
+	<option value="Post">Sick</option>
+	<option value="Text">Healthy</option>
+</select>
+</p>
+</fieldset>    
+    
+    
+    
+    
+<p>
+
+<fieldset>
+<legend>Membership </legend>
+<br>      
+<input type="radio" name="hear" value="Student" id="membership">Student
+<input type="radio" name="hear" value="Adult">Adult
+<input type="radio" name="hear" value="Senior">Senior
+<input type="radio" name="hear" value="OffPeak">Off-Peak
+<input type="radio" name="hear" value="three">3 Months
+<input type="radio" name="hear" value="six">6 Months
+<input type="radio" name="hear" value="nine">9 Months
+<input type="radio" name="hear" value="tweleve" id="months">12 Months      
+</fieldset>
+</p>
+
+ 
+<fieldset>
+<legend>
+    <div id="row3">
+    Exercise Aim
+    </div>    
+</legend>
+<br>    
+<input type="checkbox" name="hear" value="health" id="health" id="aim">
+    <span class="box" >Health</span>
+<input type="checkbox" name="hear" value="energy" >
+    <span class="box">Energy</span>
+<input type="checkbox" name="hear" value="fitness" >
+    <span class="box">Fitness</span>
+<input type="checkbox" name="hear" value="toning" >
+    <span class="box">Toning</span>
+<input type="checkbox" name="hear" value="weight" >
+    <span class="box">Weight Loss</span>
+<input type="checkbox" name="hear" value="rehab" >  
+    <span class="box">Rehab</span>
+</fieldset>    
+  
+<p>    
+<fieldset>
+<legend>Payment Method </legend>    
+<form action="thankyou.html" method="post">   
+<br>              
+<input type="radio" name="hear" id="payment" value="Student"><img src="images/visa.png" width="100" height="50">
+<input type="radio" name="hear" value="Student"><img src="images/mastercard.png" width="100" height="50">   
+<input type="radio" name="hear" value="Student"><img src="images/paypal.jpg" width="100" height="50">              
+</fieldset>
+</p>
+    
+
+<p>
+
+<fieldset>
+<legend>Are you interested in other services?</legend>
+<form action="thankyou.html" method="post">
+<br>    
+       
+<input type="checkbox" name="hear" value="health" id="interest" >None
+<input type="checkbox" name="hear" value="energy" >Massage
+<input type="checkbox" name="hear" value="fitness" >Personal Trainer
+<input type="checkbox" name="hear" value="toning" >Nutrition
+<input type="checkbox" name="hear" value="weight" >Steam Room
+      
+</fieldset> 
+</p>    
+
+<p>
+<fieldset>
+<legend>Other Details</legend>
+<form action="thankyou.html" method="post">
+<br>    
+ 
+<textarea name = "textArea" rows="10" cols="50" wrap="hard" name="comments" id="details"></textarea>
+</fieldset>    
+
+    
+<p>
+<fieldset>
+<legend>Upload a Photo of Yourself</legend>
+<form action="thankyou.html" method="post" >
+<br>      
+<div id="row7"></div>    
+<input type="file" name="pic" accept="image/*" id="photo">
+</fieldset>    
+
+    
+<div id="tops">
+<img src="images/person1.jpg" class="image1">
+<img src="images/person2.jpg" class="image">    
+    </div>      
+
+
+
+
+
+
+<br>
+<div class= "buttons">
+<input type = "submit" name = "submit" id = "submit" value = "Send">
+
+<input type = "reset" name = "reset" id = "reset" value = "Reset">
+</div>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="footer">
+    Copyright @B00086142 2016
+</div>
+</body>
+</html>

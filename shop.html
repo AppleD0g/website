@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    
+<Style> @import "css/shop.css" </style>
+<Style> @import "NavCss/css2.css" </style> 
+    
+<script type="text/javascript">    
+        
+	function calculateTotal(){
+        var total = 0;
+        var rope = 5;
+        var ball = 20;
+        var mat = 30;
+        var wheel = 10;
+        var band = 199;
+
+        var a = document.getElementById("ropeInput").value;
+        var b = document.getElementById("ballInput").value;
+        var c = document.getElementById("matInput").value;
+        var d = document.getElementById("wheelInput").value;
+        var e = document.getElementById("bandInput").value;
+
+       total = (a*rope) + (b*ball) + (c*mat) + (d*wheel) + (e*band);
+       total = total.toFixed(2);
+       document.getElementById("Price").innerHTML="Total = " + total;
+       alert("Check your total");
+    }
+
+
+    
+</script>
+</head>
+
+<meta charset = "utf-8">
+<title> Excel Leisure  </title>
+
+<Style> @import "css/classes.css" </style>    
+<body>
+    
+<form onSubmit = "calculateTotal()">
+<div id="header">
+    <h1><img src ="images/logo.png"></h1>
+</div>
+
+<div align="center" id = "nav" ></nav>
+<a href= "home.html"class="button">Home</a>
+<a href= "classes.html"class="button">Classes</a>
+<a href= "membership.html"class="button">Membership</a>
+<a href= "shop.html"class="button">Shop</a>    
+<a href= "contact.html"class="button">Contact us</a>
+<a href= "gallery.html"class="button">Gallery</a>
+<a href= "faq.html"class="button">FAQ</a>
+<a href= "sitemap.html" class="button">Site Map</a>    
+  
+</ul>
+</div>
+
+
+
+
+
+
+
+<table>
+<caption>Excel Leisure Summer Classes 2016</caption>
+
+<tr>
+	<th>Item</th>
+	<th>Price</th>
+	<th>Description</th>
+    <th>Quantity</th>
+</tr>
+<tr>
+    <class id= "choice">
+	<td><img src="images/shop1.jpg" height="250" width="250"></td>
+        <td>&euro;5.00</td> 
+        <td>Swimming Hat</td>
+        <td ><input type="text" id="ropeInput"></td>  
+</tr>
+<tr>
+	<td><img src="images/shop2.jpg" height="250" width="250"</td>
+	<td>&euro;20.00</td>
+	<td>Goggle</td>
+    <td ><input type="text" id="ballInput"></td>  
+	            
+</tr>
+<tr>
+	<td><img src="images/shop3.jpg" height="250" width="250"></td>
+	<td>&euro;30.00</td>
+	<td>Protein Supplement</td>
+    <td ><input type="text" id="matInput"></td>  
+	    
+</tr>
+<tr>
+	<td><img src="images/shop4.jpg" height="250" width="250"></td>
+	<td>&euro;199.00</td>
+	<td>V.I.P</td>
+    <td ><input type="text" id="bandInput"></td> 
+	           
+</tr>    
+<tr>
+	<td><img src="images/shop5.jpg" height="250" width="250"></td>
+    <td>&euro;10.00</td>
+    <td>Shampoo</td>
+    <td ><input type="text" id="wheelInput"></td> 
+</tr>    
+
+</table>
+
+<div id="Price"></div>
+<br>
+<input type="submit" value="Calculate">
+<input type ="reset" id="reset" value="Reset">
+<br>
+
+</form>
+
+
+
+<div id="footer"> 
+    Copyright @B00086142 2016
+</div>
+</body>
+</html>
+

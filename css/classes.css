@@ -1,0 +1,39 @@
+body{
+    background-color:antiquewhite;
+}
+
+
+
+table
+{
+	border-collapse:collapse;
+    margin-left:15%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+table, td, th
+{
+	border:1px solid black;
+}
+
+td{
+    background-color: gainsboro;
+}
+
+
+th
+{
+	background-color: rosybrown;
+}
+
+
+
+
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+}
